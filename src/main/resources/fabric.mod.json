@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "paytrack",
+  "version": "1.0.0",
+  "name": "PayTrack",
+  "description": "Tracks payments to you and shows client-side celebration effects on your own screen.",
+  "authors": [],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.paytrack.PayTrackMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.8",
+    "java": ">=21"
+  }
+}
