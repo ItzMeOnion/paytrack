@@ -20,9 +20,11 @@ jobs:
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: 8.14
 
       - name: Build the mod
-        run: ./gradlew build
+        run: gradle build
 
       - name: Upload the built jar
         uses: actions/upload-artifact@v4
